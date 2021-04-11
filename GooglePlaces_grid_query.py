@@ -27,7 +27,7 @@ except:
 df_grid = pd.read_csv('data/location_grid.csv', sep=';')
 
 # Define dataframe 
-df_category = pd.read_csv('data/types_selection_filtered.csv', sep=';')
+df_category = pd.read_csv('data/types_selection.csv', sep=';')
 for i in df_category.index:
 
 	if df_category['Select'][i] == 'yes':
