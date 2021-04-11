@@ -14,12 +14,12 @@ subsubdir = "data_type"
 main = os.getcwd()
 
 try:
-    os.mkdir(os.path.join(main, subdir))
+	os.mkdir(os.path.join(main, subdir))
 except:
 	print("subdir already existing")
 
 try:
-    os.mkdir(os.path.join(main, subdir, subsubdir))
+	os.mkdir(os.path.join(main, subdir, subsubdir))
 except:
 	print("subsubdir already existing")
 
