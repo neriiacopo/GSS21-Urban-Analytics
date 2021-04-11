@@ -1,13 +1,12 @@
-
 # City DNA - GSS 2021
-
-# to run the Python script
 
 ## Requirements
 - [Python 3](https://www.python.org/downloads/)(ideally 3.6 or 3.7)
+- [Rhinoceros](https://www.rhino3d.com/download/)(ideally 7)
+- [Urbano add-on for Grasshopper](https://www.food4rhino.com/app/urbano)(v1.3.2)
 - [git](https://www.atlassian.com/git/tutorials/install-git)
 
-
+## to run the Python script
 ## Installation
 1. **[clone the repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)**
   - download the repository and unzip
