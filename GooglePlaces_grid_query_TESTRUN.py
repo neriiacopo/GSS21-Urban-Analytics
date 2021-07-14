@@ -8,7 +8,7 @@ import os, glob
 API_KEY = "#"
 
 # Make subdirectories for output files 
-subdir = "output"
+subdir = "output_test"
 subsubdir = "data_type"
 
 main = os.getcwd()
@@ -34,8 +34,9 @@ for i in df_category.index:
 
 		type_i = df_category['Type-Places'][i]
 		category = df_category['Category'][i]
-		
+
 		df = pd.DataFrame()
+		
 		
 		for i in df_grid.index:
 			grid_lng = df_grid['lng'][i]
@@ -45,7 +46,7 @@ for i in df_category.index:
 			
 			gmaps = googlemaps.Client(key=API_KEY)
 			
-			places_result = gmaps.places_nearby(location=lat_lng, radius=1000, open_now=False, type=type_i)
+			places_result = gmaps.places_nearby(location=lat_lng, radius=1000, open_now=False, type='type_i')
 			
 			stored_results = places_result['results']
 			
@@ -61,7 +62,7 @@ for i in df_category.index:
 				# Remove duplicates based on place_id
 				df = df.drop_duplicates(subset=['place_id'], keep=False)
 
-		type_file = str(type_i) + '.csv'		
+		type_file = str(type_i) + '.csv'
 		df.to_csv(os.path.join(subdir, subsubdir, type_file))
 		print(type_i + "___exported")
 
@@ -73,4 +74,5 @@ all_files = glob.glob(os.path.join(subdir, subsubdir, "*.csv"))
 
 df_from_each_file = (pd.read_csv(f, sep=',') for f in all_files)
 df_merged = pd.concat(df_from_each_file, ignore_index=True)
-df_merged.to_csv( "output/places.csv", sep=";")
+
+df_merged.to_csv(os.path.join(subdir, "places.csv"), sep=";")
