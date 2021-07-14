@@ -15,10 +15,10 @@
   - open a Terminal (mac) or run PowerShell (win)
   - change directory to access the repository `example: cd /Users/xxx/Desktop/city-dna`
 2. **[virtual environment](https://docs.python.org/3/tutorial/venv.html)**
-  - with only Python3 installed `python -m venv env`
-  - if Python2 and Python3 installed `python3 -m venv env`
-  -  mac: `source /env/bin/activate`
-  -  win: `.\env\Scripts\activate`
+  - with only Python3 installed `python -m venv GSS21_UA`
+  - if Python2 and Python3 installed `python3 -m venv GSS21_UA`
+  -  mac: `source /GSS21_UA/bin/activate`
+  -  win: `.\GSS21_UA\Scripts\activate`
 3. **install dependencies**
   - `pip install -r requirements.txt`
 
@@ -28,8 +28,8 @@
 - Run the script
 
 ## Troubleshooting
-- if `.\env\Scripts\activate` fails to run in Windows
+- if `.\GSS21_UA\Scripts\activate` fails to run in Windows
   - make sure you run Powershell as Administrator 
   - `Set-ExecutionPolicy RemoteSigned`
   - `y`
-  - `.\env\Scripts\activate`
+  - `.\GSS21_UA\Scripts\activate`
