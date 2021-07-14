@@ -1,4 +1,4 @@
-# City DNA - GSS 2021
+# GSS21 _ Urban Analytics
 
 ![GSS_11](https://user-images.githubusercontent.com/50297074/114306399-35bd1980-9adc-11eb-82d6-957b61c523ca.jpg)
 
