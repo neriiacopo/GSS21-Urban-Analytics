@@ -25,6 +25,7 @@
 ## Usage
 - Change directory in the Terminal/PowerShell to repository folder
 - Activate your virtual environment (as explained above)
+- Run the script
 
 ## Troubleshooting
 - if `.\env\Scripts\activate` fails to run in Windows
