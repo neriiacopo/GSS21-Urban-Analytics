@@ -46,7 +46,7 @@ for i in df_category.index:
 			
 			gmaps = googlemaps.Client(key=API_KEY)
 			
-			places_result = gmaps.places_nearby(location=lat_lng, radius=1000, open_now=False, type='type_i')
+			places_result = gmaps.places_nearby(location=lat_lng, radius=1000, open_now=False, type=type_i)
 			
 			stored_results = places_result['results']
 			
