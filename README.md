@@ -1,6 +1,11 @@
 # GSS21 _ Urban Analytics
+Analyzing Perception of urban services using Open Street Map and Google Places API
 
 ![GSS_21](https://user-images.githubusercontent.com/50297074/114306399-35bd1980-9adc-11eb-82d6-957b61c523ca.jpg)
+
+This repository is produced within the IAAC Global Summer School 2021 - Urban Analytics workshop.
+
+Find more info at http://globalschool.iaac.net/
 
 ## Requirements
 - [Rhinoceros](https://www.rhino3d.com/download/) (ideally 7)
