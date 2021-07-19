@@ -1,10 +1,11 @@
 # GSS21 _ Urban Analytics
 
-![GSS_11](https://user-images.githubusercontent.com/50297074/114306399-35bd1980-9adc-11eb-82d6-957b61c523ca.jpg)
+![GSS_21](https://user-images.githubusercontent.com/50297074/114306399-35bd1980-9adc-11eb-82d6-957b61c523ca.jpg)
 
 ## Requirements
 - [Rhinoceros](https://www.rhino3d.com/download/) (ideally 7)
-- [Urbano add-on](https://www.food4rhino.com/app/urbano) for Grasshopper 3D (v1.3.2)
+- [Urbano add-on](https://www.food4rhino.com/app/urbano) (v1.3.3)
+- [Tarsier add-on](https://www.food4rhino.com/en/app/tarsier) (v.1.0.1.0)
 - [Python 3](https://www.python.org/downloads/) (ideally 3.7 +)
 - [git](https://www.atlassian.com/git/tutorials/install-git)
 
